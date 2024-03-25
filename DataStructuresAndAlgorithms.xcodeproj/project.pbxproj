@@ -14,6 +14,8 @@
 		C8462FD62BADCA0B00297F70 /* DataStructuresAndAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8462FD52BADCA0B00297F70 /* DataStructuresAndAlgorithmsTests.swift */; };
 		C8462FE02BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8462FDF2BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITests.swift */; };
 		C8462FE22BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8462FE12BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITestsLaunchTests.swift */; };
+		C8462FEF2BADDF9F00297F70 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8462FEE2BADDF9F00297F70 /* Queue.swift */; };
+		C8462FF12BADE0B000297F70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8462FF02BADE0B000297F70 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C8462FDB2BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresAndAlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8462FDF2BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresAndAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		C8462FE12BADCA0B00297F70 /* DataStructuresAndAlgorithmsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresAndAlgorithmsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8462FEE2BADDF9F00297F70 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		C8462FF02BADE0B000297F70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				C8462FC42BADCA0900297F70 /* DataStructuresAndAlgorithmsApp.swift */,
 				C8462FC62BADCA0900297F70 /* ContentView.swift */,
+				C8462FEE2BADDF9F00297F70 /* Queue.swift */,
+				C8462FF02BADE0B000297F70 /* LinkedList.swift */,
 				C8462FC82BADCA0B00297F70 /* Assets.xcassets */,
 				C8462FCA2BADCA0B00297F70 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8462FC72BADCA0900297F70 /* ContentView.swift in Sources */,
+				C8462FEF2BADDF9F00297F70 /* Queue.swift in Sources */,
+				C8462FF12BADE0B000297F70 /* LinkedList.swift in Sources */,
 				C8462FC52BADCA0900297F70 /* DataStructuresAndAlgorithmsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
