@@ -47,6 +47,18 @@ public class Queue<T>
     {
         return list.first?.value
     }
+    
+    public func allElements() -> [T] 
+    {
+        var elements = [T]()
+        var currentNode = list.first
+        while let node = currentNode {
+            elements.append(node.value)
+            currentNode = node.next
+        }
+        return elements
+    }
+
 }
 
 extension Queue: CustomStringConvertible
